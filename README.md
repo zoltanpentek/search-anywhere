@@ -1,8 +1,15 @@
+![Stars](https://img.shields.io/github/stars/happyman09/search-anywhere?style=flat-square)
+![Forks](https://img.shields.io/github/forks/happyman09/search-anywhere?style=flat-square)
+![Issues](https://img.shields.io/github/issues/happyman09/search-anywhere?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/happyman09/search-anywhere?style=flat-square)
+![License](https://img.shields.io/github/license/happyman09/search-anywhere?style=flat-square)
+![Downloads](https://img.shields.io/github/downloads/happyman09/search-anywhere/latest/total?style=flat-square)
+
 # 🔥 Hotkey Clipboard Search Tool
 
 **Search Google & YouTube instantly using hotkeys!**  
 
-This lightweight Windows tool lets you search **Google** or **YouTube** directly from your clipboard with customizable global hotkeys. Hotkeys can be toggled ON/OFF and show small toast notifications.
+This lightweight Windows tool lets you search **Google** or **YouTube** directly from your clipboard with global hotkeys. Hotkeys can be toggled ON/OFF and show small toast notifications. 
 
 ---
 
@@ -17,61 +24,85 @@ This lightweight Windows tool lets you search **Google** or **YouTube** directly
 - 🪟 **Windows native toast notifications** using [plyer](https://pypi.org/project/plyer/)
 
 ---
+# 📦 Installation & Usage
 
-## 📦 Installation & Usage
+ - **Download the `search_anywhere!.exe` file**
 
-1. Clone the repo:
+ - **Hit Win+R and type:** 
+ ```
+Shell:startup
+ ```
 
-```bash
-git clone https://github.com/happyman09/hotkey-clipboard-search.git
-cd hotkey-clipboard-search/source
-Install dependencies:
+ - **Copy .exe to Shell:startup → starts automatically on Windows login**
 
+## - ⚠️ Remember to `Copy` or hit `Ctrl+C` first before using the Hotkey (Ctrl+Alt+G or Y)
+
+---
+
+
+# ⚠️ Setup Requirements
+- Python
+**Make sure you have [Python](https://www.python.org/downloads/) installed on your system.**
+  
+- Environment Variables  
+**Ensure Python is added to your `PATH` so you can run it from any directory.**
+  
+- pip:
+**Make sure pip is installed to manage dependencies. You can check by running:**
+```
+pip --version
+```
+**If it’s missing, follow the instructions here:**
+```
+Install pip
+```
+## 📦 Install dependencies:
+
+Install required Python packages:
+```
 pip install keyboard pyperclip plyer
+```
+---
 
+## Run the script:
 
-Run the script:
+Double Click on the `search_anywhere!.exe` to run
 
-python hotkey_search_final.py
+**⚠️ Note** that copying the `.exe` to `shell:startup` will start the script in the background next time you log in,
+**You dont have to click on the `.exe` everytime you log in!**
 
-💻 Hotkeys
+---
+
+## 💻 Hotkeys
 Hotkey	Action
-Ctrl+Alt+G	Google search clipboard text
-Ctrl+Alt+Y	YouTube search clipboard text
-Ctrl+Alt+T	Toggle hotkeys ON/OFF
-Esc	Exit the script completely
-🔨 Build Windows Executable
-pip install pyinstaller
-pyinstaller --onefile --noconsole hotkey_search_final.py
+
+- `Ctrl+Alt+G`	Google search clipboard text
+- `Ctrl+Alt+Y`	YouTube search clipboard text
+- `Ctrl+Alt+T`	Toggle hotkeys ON/OFF
+- `Esc`	Exit the script completely
+  
+---
+
+## 📝 Notes
+
+- **Works on Windows only (As of now)**
+- **Cross-platform toast notifications via plyer**
+- **No terminal window will appear; fully silent in background**
+- **Hotkeys use Ctrl+Alt to reduce clashes, even during games or any software's hotkeys**
+- **In case of clashes, you can simply hit `Ctrl+Alt+T` to turn off**
 
 
-Copy .exe to Shell:startup → starts automatically on Windows login
-
-No terminal window will appear; fully silent in background
-
-📝 Notes
-
-Works on Windows only
-
-Cross-platform toast notifications via plyer
-
-Hotkeys use Ctrl+Alt to reduce clashes, even during games
-
-🤝 Contributions
+## 🤝 Contributions
 
 Want to add Linux or Mac support?
 
 Have ideas for additional search engines or custom hotkeys?
 
-Open a PR or issue — contributions welcome!
+`Open a PR or issue — contributions welcome!`
 
-📜 License
+## 📜 License
 
 MIT License
 
 
 ---
-
-If you want, I can **also create the shield badges** (stars, last commit, license, downloads, etc.) for the top of this README to make it **instantly flex-worthy** like your wallpaper-themer repo.  
-
-Do you want me to do that next?

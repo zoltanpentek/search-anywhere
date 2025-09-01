@@ -29,7 +29,7 @@ This lightweight Windows tool lets you search **Google** or **YouTube** directly
 ---
 # 📦 Installation & Usage
 
- - **Download the `search_anywhere!.exe` file**
+ - **Download the `search_anywhere!V2.exe` file**
 
  - **Hit Win+R and type:** 
  ```
@@ -69,7 +69,7 @@ pip install keyboard pyperclip
 
 ## Run the script:
 
-Double Click on the `search_anywhere!.exe` to run
+Double Click on the `search_anywhere!V2.exe` to run
 
 **⚠️ Note** that copying the `.exe` to `shell:startup` will start the script in the background next time you log in,
 **You dont have to click on the `.exe` everytime you log in!**

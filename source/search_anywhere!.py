@@ -5,7 +5,6 @@ import keyboard
 from plyer import notification
 import time
 
-# Flag to track if hotkeys are active
 hotkeys_active = True
 
 def notify(message):
@@ -37,7 +36,7 @@ def toggle_hotkeys():
     status = "ON" if hotkeys_active else "OFF"
     notify(f"Hotkeys {status}")
 
-# Register hotkeys with suppression to prevent typing letters
+# Register hotkeys to prevent typing letters
 keyboard.add_hotkey('ctrl+alt+g', search_google, suppress=True)
 keyboard.add_hotkey('ctrl+alt+y', search_youtube, suppress=True)
 keyboard.add_hotkey('ctrl+alt+t', toggle_hotkeys, suppress=True)

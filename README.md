@@ -8,7 +8,7 @@
 
 **Search Google & YouTube instantly using hotkeys!**  
 
-This lightweight Windows tool lets you search **Google** or **YouTube** directly from your clipboard with global hotkeys. Hotkeys can be toggled ON/OFF and show small toast notifications. 
+This lightweight Windows tool lets you search **Google** or **YouTube** directly from your clipboard with global hotkeys. Hotkeys can be toggled ON/OFF. 
 
 ---
 
@@ -16,11 +16,10 @@ This lightweight Windows tool lets you search **Google** or **YouTube** directly
 
 - 🔍 **Google Search** – Ctrl+Alt+G  
 - ▶️ **YouTube Search** – Ctrl+Alt+Y  
-- ⚡ **Toggle Hotkeys** – Ctrl+Alt+T (ON/OFF with notification)  
+- ⚡ **Toggle Hotkeys** – Ctrl+Alt+T (ON/OFF Background)  
 - 🛑 **Exit Script** – Esc  
 - 🖥️ **Runs silently in background**  
 - 🚫 **Suppress keypresses** – prevents letters from being typed while using hotkeys  
-- 🪟 **Windows native toast notifications** using [plyer](https://pypi.org/project/plyer/)
 
 ---
 # 📦 Installation & Usage
@@ -59,7 +58,7 @@ Install pip
 
 Install required Python packages:
 ```
-pip install keyboard pyperclip plyer
+pip install keyboard pyperclip
 ```
 ---
 
@@ -84,11 +83,11 @@ Hotkey	Action
 
 ## 📝 Notes
 
-- **Works on Windows only (As of now)**
+- **Works on Windows only (as of now)**
 - **Cross-platform toast notifications via plyer**
 - **No terminal window will appear; fully silent in background**
 - **Hotkeys use Ctrl+Alt to reduce clashes, even during games or any software's hotkeys**
-- **In case of clashes, you can simply hit `Ctrl+Alt+T` to turn off**
+- **In case of clashes while in another app, you can simply hit `Ctrl+Alt+T` to turn off**
 
 
 ## 🤝 Contributions

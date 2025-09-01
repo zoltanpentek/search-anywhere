@@ -23,8 +23,10 @@ This lightweight Windows tool lets you search **Google** or **YouTube** directly
 
 ---
 ## ▶️ RAW Demo 
-[![Watch Demo](https://img.youtube.com/vi/Agijos7AhVQ/0.jpg)](https://www.youtube.com/watch?v=Agijos7AhVQ)
-<>
+
+<a href="https://www.youtube.com/watch?v=Agijos7AhVQ" target="_blank">
+  <img src="https://img.youtube.com/vi/Agijos7AhVQ/0.jpg" alt="Watch Demo" width="600">
+</a>
 
 ---
 # 📦 Installation & Usage

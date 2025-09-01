@@ -22,6 +22,11 @@ This lightweight Windows tool lets you search **Google** or **YouTube** directly
 - 🚫 **Suppress keypresses** – prevents letters from being typed while using hotkeys  
 
 ---
+## ▶️ RAW Demo 
+[![Watch Demo](https://img.youtube.com/vi/Agijos7AhVQ/0.jpg)](https://www.youtube.com/watch?v=Agijos7AhVQ)
+<>
+
+---
 # 📦 Installation & Usage
 
  - **Download the `search_anywhere!.exe` file**
